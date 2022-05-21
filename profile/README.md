@@ -2,7 +2,17 @@
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
-C-APIs for native Lua module interoperation
+C-APIs for native [Lua] module interoperation
+
+[Lua]:      https://www.lua.org
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+### Carray C API
+
+The [Carray C API] makes it possible to handle arrays of primitive numeric 
+C data types in Lua script code and also in native C code for enhancing module 
+interoperability and performance.
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
@@ -35,6 +45,7 @@ threads.
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
+[Carray C API]:   https://github.com/lua-capis/lua-carray-capi
 [Notify C API]:   https://github.com/lua-capis/lua-notify-capi
 [Receiver C API]: https://github.com/lua-capis/lua-receiver-capi
 [Sender C API]:   https://github.com/lua-capis/lua-sender-capi
