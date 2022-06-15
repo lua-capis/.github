@@ -45,8 +45,17 @@ threads.
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
+<!-- ---------------------------------------------------------------------------------------- -->
+
+### Auproc C API
+
+The [Auproc C API] makes it possible to decouple [Lua] modules providing an audio processing 
+engine from Lua modules providing realtime audio processor objects. 
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
 [Carray C API]:   https://github.com/lua-capis/lua-carray-capi
 [Notify C API]:   https://github.com/lua-capis/lua-notify-capi
 [Receiver C API]: https://github.com/lua-capis/lua-receiver-capi
 [Sender C API]:   https://github.com/lua-capis/lua-sender-capi
-
+[Auproc C API]:   https://github.com/lua-capis/lua-auproc-capi
